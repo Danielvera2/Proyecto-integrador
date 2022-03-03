@@ -19,7 +19,7 @@
   nav ul li {
     float: left;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    *font-size: 16px;
   }
   nav ul li a {
     display: block; 
@@ -43,8 +43,10 @@
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   /*fin barra*/
+  
   .contenido {
     padding-top: 100px;
+    
   }
   h1{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -266,4 +268,9 @@ button:hover{
 }
 span{
     margin:0 5px 0 15px;
+}
+.contenido{
+   *width: 900px;
+    *margin: 2px;
+    *float: left;
 }
